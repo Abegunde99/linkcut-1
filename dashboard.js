@@ -207,6 +207,7 @@ toggleIcon.addEventListener('click', toggleDropdown)
 
 
 const updateProfile = async function () { 
+  console.log('work abeg')
   //get the current loggedin user from my api
   //get token from local storage
   const token = localStorage.getItem('token');
